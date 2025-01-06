@@ -1,0 +1,164 @@
+/*common styling*/
+
+* {
+    margin:0;
+    padding:0;
+  }
+  
+  .wrapper {
+    width: 100%;
+  }
+
+  body {
+      
+    font-family: "Montserrat", sans-serif;
+    background-color:#2F4F4F;
+    color:#F4F1EB;
+  }
+
+  .button-container {
+    display: flex;
+    flex-wrap: wrap; /* Wrap buttons if necessary */
+    gap: 10px; /* Space between buttons */
+    margin-top: 20px; /* Space above h1 */
+    justify-content:right;
+  }
+  
+  .submit-button {
+    background-color: #2F4F4F;
+    border: 2px #2F4F4F; /* Define border width and style */
+    padding: 10px 20px; /* Standard padding */
+    font-size: 16px; /* Standard font size */
+    border-radius: 5px; /* Optional for rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-family: "Kantumruy Pro", sans-serif;
+    display:inline-block;
+  }
+  
+  .submit-button:hover {
+    background-color: #669f9f;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+
+
+
+/* Style for dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #669f9f;;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  z-index: 1;
+  border-radius: 5px;
+}
+
+/* Links inside dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius: 5px;
+}
+
+/* Change color of links when hovering */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown when hovering over the parent element */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+/*homepage*/
+  .welcome {
+    width:100%;
+  }
+  .welcome h1 {
+    padding: 30px 30px 20px;
+    font-size:50px;
+    line-height: 44px;
+   
+  }
+  .welcome h2 {
+    padding: 30px 30px 20px;
+    font-size:30px;
+    
+  }
+
+  .ready {
+    width:100%;
+  }
+
+  .ready h1 {
+    padding: 30px 30px 20px;
+    font-size:50px;
+    line-height: 44px;
+  }
+
+  .ready h2 {
+    padding: 30px 30px 20px;
+    font-size:30px;
+  }
+  
+/*about me*/
+
+.about {
+width:100%;
+}
+
+.about h1 {
+  padding: 30px 30px 20px;
+    font-size:50px;
+    line-height: 44px;
+}
+
+.about p {
+  overflow: auto;
+    padding: 100px;
+    margin-bottom: 15px;  /* Space between paragraphs */
+    line-height: 1.5;     /* Space between lines inside paragraphs */
+    margin-bottom: 0;  /* Remove margin from the last paragraph */
+}
+
+  /*learner type*/
+
+.type {
+  width:100%;
+}
+
+  .type h1 {
+    padding: 30px 30px 20px;
+    font-size:50px;
+    line-height: 44px;
+  }
+
+  .type h2 {
+    padding: 30px 30px 20px;
+    font-size:30px;
+  }
+
+
+  .container {
+    
+    overflow: auto;
+    padding: 100px;
+}
+
+.container p {
+    margin-bottom: 15px;  /* Space between paragraphs */
+    line-height: 1.5;     /* Space between lines inside paragraphs */
+}
+
+.container p:last-child {
+    margin-bottom: 0;  /* Remove margin from the last paragraph */
+}
